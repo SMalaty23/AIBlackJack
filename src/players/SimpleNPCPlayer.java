@@ -27,7 +27,7 @@ public class SimpleNPCPlayer extends Player {
     @Override
     protected boolean shouldFold() {
         // Example logic: fold if the bet is more than 10% of the bank
-        return getGameState().getTableBet() > getBank() * 0.1;
+        return getGameState().getTableBet() > getBank() * 0.2;
     }
 
     @Override
